@@ -18,7 +18,7 @@ async def start_message(bot, message):
              InlineKeyboardButton("😎 About", callback_data="about") 
              ],[
              InlineKeyboardButton("🗳 Deploy", url="https://youtu.be/OTqZmADyOjU"),
-             InlineKeyboardButton("🤖 Support", url="https://t.me/Mo_Tech_YT")
+             InlineKeyboardButton("🤖 Support", url="https://t.me/+f38hKDCSUbFmODg1")
              ]]
         else:
             buttons = [[
@@ -28,7 +28,7 @@ async def start_message(bot, message):
              InlineKeyboardButton("😎 About", callback_data="about") 
              ],[
              InlineKeyboardButton("🗳 Deploy", url="https://youtu.be/OTqZmADyOjU"),
-             InlineKeyboardButton("🤖 Support", url="https://t.me/Mo_Tech_Group")
+             InlineKeyboardButton("🤖 Support", url="https://t.me/+f38hKDCSUbFmODg1")
              ]]    
         await message.reply_photo(photo = random.choice(BOT_PICS), caption=START_MSG.format(mention = message.from_user.mention, bot_name = bot_info.BOT_NAME, bot_username = bot_info.BOT_USERNAME), reply_markup=InlineKeyboardMarkup(buttons))
         
