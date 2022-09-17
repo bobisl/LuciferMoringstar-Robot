@@ -15,23 +15,23 @@
     "env": {
         "BOT_TOKEN": {
             "description": "Your Bot Token From https://youtu.be/cB4UduCcNWs",
-            "value": ""
+            "value": "5422398511:AAF7a4-XGNsxATFSIa5zkW7DqazC_iyyo6I"
         },
         "API_ID": {
             "description": "Get this value from https://youtu.be/5eEsvLAKVc0 or @MT_MytelegramOrg_Bot",
-            "value": ""
+            "value": "17684842"
         },
         "API_HASH": {
             "description": "Get this value from https://youtu.be/5eEsvLAKVc0 or @MT_MytelegramOrg_Bot",
-            "value": ""
+            "value": "33079811ffe222b1c7f6688b86903bce"
         },
         "CHANNELS": {
             "description": "Username or ID of channel or group. Separate multiple IDs by space. @MT_ID_Bot",
-            "value": ""
+            "value": "-1001647201152"
         },
         "ADMINS": {
             "description": "Username or ID of Admin. Separate multiple Admins by space.",
-            "value": ""
+            "value": "5635525131"
         },
         "AUTH_USERS": {
             "description": "Username or ID of users to give access of inline search. Separate multiple users by space.\nLeave it empty if you don't want to restrict bot usage.",
@@ -40,12 +40,12 @@
         },
         "FORCES_SUB": {
             "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
-            "value": "",
+            "value": "-1001647201152",
             "required": false
         },
         "PICS": {
             "description": "Add some telegraph link of pictures .",
-            "value": "",
+            "value": "https://telegra.ph/file/e86776745f98d38f07340.jpg",
             "required": false
         },
         "START_MSG": {
@@ -60,7 +60,7 @@
         },
         "DATABASE_URI": {
             "description": "Mongodb from https://youtu.be/gBLTsH-IXr0",
-            "value": ""
+            "value": "mongodb+srv://crazybotz:<Spasan0088>@cluster0.2m36x9f.mongodb.net/?retryWrites=true&w=majority"
         },
         "SPELL_MODE": {
             "description": "Spelling Mode on or off",
@@ -69,21 +69,21 @@
         },
         "SPELL_MODE_TEXT": {
             "description": "Seplling Mode Text For More Info Check Readme.md",
-            "value": "",
+            "value": "Sorry! I coudn't find anything please again try with correct spelling ...",
             "required": true
         },
         "LOG_CHANNEL": {
             "description": "Log Channel Use Private Channel Id -100×××× from @MT_ID_Bot",
-            "value": ""
+            "value": "-1001627273270"
         },
         "DEV_NAME": {
             "description": "Creator Name or Username ",
-            "value": "Muhammed",
+            "value": "×͜×Winzo",
             "required": true
         },
         "SUPPORT": {
             "description": "Your Group Link Private or Public Link (with t.me or https://t.me)",
-            "value": "https://telegram.dog/Mo_Tech_Group",
+            "value": "https://t.me/movie_link_lk",
             "required": true
         }
     },
